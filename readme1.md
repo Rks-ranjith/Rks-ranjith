@@ -1,4 +1,4 @@
-# Ranjith Kumar S - GitHub Profile
+﻿# Ranjith Kumar S - GitHub Profile
 
 <div align="center">
 
@@ -91,23 +91,100 @@ class RanjithKumarS:
 ## 0x02 TECHNICAL EXPERTISE
 
 ```bash
-[root@ranjith-kumar:~]# ./list_skills.sh
+[root@ranjith-kumar:~]# ./list_skills.sh --verbose
 ```
 
-### Languages & Scripts
-`Python` `TypeScript` `JavaScript` `SQL` `Bash` `HTML5` `CSS3`
+<details open>
+<summary><b>Programming Languages & Scripting</b></summary>
+<br/>
+<div align="center">
 
-### Offensive Tooling
-`Burp Suite` `Nmap` `Metasploit` `Wireshark` `Impacket` `CrackMapExec` `Playwright`
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-### AI & LLM Security
-`Prompt Injection Defense` `RAG Security Auditing` `AI Agent Trust Boundaries` `MCP Protocol Security` `OWASP LLM Top 10`
+</div>
+</details>
 
-### Systems & Detection
-`Wazuh SIEM` `Sysmon` `Sigma Detection Rules` `MITRE ATT&CK Mapping` `Windows Server (Active Directory)` `Kali Linux` `Ubuntu`
+<details open>
+<summary><b>Frontend & Real-Time Engineering</b></summary>
+<br/>
+<div align="center">
 
-### Infrastructure & Databases
-`Docker` `PostgreSQL` `Redis` `Git` `GCP Observability`
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socket.io&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![REST API](https://img.shields.io/badge/REST%20API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+</div>
+</details>
+
+<details open>
+<summary><b>Backend & Infrastructure</b></summary>
+<br/>
+<div align="center">
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+</div>
+</details>
+
+<details open>
+<summary><b>Offensive Security & Red Team Tooling</b></summary>
+<br/>
+<div align="center">
+
+![Burp Suite](https://img.shields.io/badge/Burp%20Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap-0E83CD?style=for-the-badge&logo=nmap&logoColor=white)
+![Metasploit](https://img.shields.io/badge/Metasploit-2596BE?style=for-the-badge&logo=metasploit&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
+![Impacket](https://img.shields.io/badge/Impacket-FF0000?style=for-the-badge&logo=python&logoColor=white)
+![CrackMapExec](https://img.shields.io/badge/CrackMapExec-000000?style=for-the-badge&logo=kalilinux&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
+
+</div>
+</details>
+
+<details open>
+<summary><b>AI / LLM Security Research</b></summary>
+<br/>
+<div align="center">
+
+![Prompt Injection](https://img.shields.io/badge/Prompt%20Injection-FF0054?style=for-the-badge&logo=openai&logoColor=white)
+![RAG Security](https://img.shields.io/badge/RAG%20Security-7C3AED?style=for-the-badge&logo=databricks&logoColor=white)
+![AI Agent Security](https://img.shields.io/badge/AI%20Agent%20Security-00D4AA?style=for-the-badge&logo=tensorflow&logoColor=white)
+![MCP Security](https://img.shields.io/badge/MCP%20Security-FF6B35?style=for-the-badge&logo=anthropic&logoColor=white)
+![OWASP LLM Top 10](https://img.shields.io/badge/OWASP%20LLM%20Top%2010-000000?style=for-the-badge&logo=owasp&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+
+</div>
+</details>
+
+<details open>
+<summary><b>Detection, SIEM & Threat Intelligence</b></summary>
+<br/>
+<div align="center">
+
+![Wazuh SIEM](https://img.shields.io/badge/Wazuh%20SIEM-005571?style=for-the-badge&logo=elastic&logoColor=white)
+![Sysmon](https://img.shields.io/badge/Sysmon-0078D4?style=for-the-badge&logo=windows&logoColor=white)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-FF0000?style=for-the-badge&logo=target&logoColor=white)
+![Sigma Rules](https://img.shields.io/badge/Sigma%20Rules-4A90D9?style=for-the-badge&logo=siemens&logoColor=white)
+![Shodan](https://img.shields.io/badge/Shodan-FF0000?style=for-the-badge&logo=shodan&logoColor=white)
+![VirusTotal](https://img.shields.io/badge/VirusTotal-394EFF?style=for-the-badge&logo=virustotal&logoColor=white)
+![Windows Server 2022](https://img.shields.io/badge/Windows%20Server%202022-0078D4?style=for-the-badge&logo=windows&logoColor=white)
+
+</div>
+</details>
 
 ---
 
