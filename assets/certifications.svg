@@ -1,0 +1,30 @@
+<svg width="780" height="380" viewBox="0 0 780 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#08070c"/>
+      <stop offset="100%" stop-color="#12081f"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#39FF88"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+<rect x="1" y="1" width="778" height="378" rx="14" fill="url(#bg)" stroke="#39FF88" stroke-opacity="0.22"/>
+  <rect x="0" y="0" width="780" height="40" rx="14" fill="#0d0b14"/>
+  <rect x="0" y="26" width="780" height="14" fill="#0d0b14"/>
+  <circle cx="26" cy="20" r="6" fill="#FF5F56"/>
+  <circle cx="46" cy="20" r="6" fill="#FFBD2E"/>
+  <circle cx="66" cy="20" r="6" fill="#27C93F"/>
+  <text x="390.0" y="25" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#6b7280">certifications.db</text>
+<path d="M14,36 L14,14 L36,14" stroke="#8B5CF6" stroke-width="2" fill="none" opacity="0.55"/>
+<path d="M766,36 L766,14 L744,14" stroke="#8B5CF6" stroke-width="2" fill="none" opacity="0.55"/>
+<path d="M14,344 L14,366 L36,366" stroke="#8B5CF6" stroke-width="2" fill="none" opacity="0.55"/>
+<path d="M766,344 L766,366 L744,366" stroke="#8B5CF6" stroke-width="2" fill="none" opacity="0.55"/>
+<text x="40" y="80" font-family="Consolas, monospace" font-size="18" font-weight="bold" fill="#39FF88">0x06 // CERTIFICATIONS &amp; TRAINING</text><line x1="40" y1="94" x2="740" y2="94" stroke="#39FF88" stroke-opacity="0.25"/><rect x="40" y="104" width="98" height="20" rx="5" fill="none" stroke="#A78BFA" stroke-width="1"/><text x="89" y="118" text-anchor="middle" font-family="Consolas, monospace" font-size="9.5" fill="#A78BFA">IN PROGRESS</text><text x="150" y="118" font-family="Consolas, monospace" font-size="12.5" fill="#E9D5FF">CompTIA Security+ (SY0-701)</text><text x="150" y="136" font-family="Consolas, monospace" font-size="10.5" fill="#8a94a3">CompTIA :: expected Aug 2026</text><rect x="40" y="154" width="98" height="20" rx="5" fill="none" stroke="#39FF88" stroke-width="1"/><text x="89" y="168" text-anchor="middle" font-family="Consolas, monospace" font-size="9.5" fill="#39FF88">CERTIFIED</text><text x="150" y="168" font-family="Consolas, monospace" font-size="12.5" fill="#E9D5FF">LLM Security Expert (CLLMSE)</text><text x="150" y="186" font-family="Consolas, monospace" font-size="10.5" fill="#8a94a3">Red Team Leaders :: Jul 2026</text><rect x="40" y="204" width="98" height="20" rx="5" fill="none" stroke="#6b7280" stroke-width="1"/><text x="89" y="218" text-anchor="middle" font-family="Consolas, monospace" font-size="9.5" fill="#6b7280">COMPLETED</text><text x="150" y="218" font-family="Consolas, monospace" font-size="12.5" fill="#E9D5FF">Pre Security</text><text x="150" y="236" font-family="Consolas, monospace" font-size="10.5" fill="#8a94a3">TryHackMe :: 2025</text><rect x="40" y="254" width="98" height="20" rx="5" fill="none" stroke="#6b7280" stroke-width="1"/><text x="89" y="268" text-anchor="middle" font-family="Consolas, monospace" font-size="9.5" fill="#6b7280">COMPLETED</text><text x="150" y="268" font-family="Consolas, monospace" font-size="12.5" fill="#E9D5FF">Cybersecurity Analyst Virtual Internship</text><text x="150" y="286" font-family="Consolas, monospace" font-size="10.5" fill="#8a94a3">Tata Group :: 2024</text><rect x="40" y="304" width="98" height="20" rx="5" fill="none" stroke="#6b7280" stroke-width="1"/><text x="89" y="318" text-anchor="middle" font-family="Consolas, monospace" font-size="9.5" fill="#6b7280">COMPLETED</text><text x="150" y="318" font-family="Consolas, monospace" font-size="12.5" fill="#E9D5FF">Monitor & Log with GCP Observability</text><text x="150" y="336" font-family="Consolas, monospace" font-size="10.5" fill="#8a94a3">Google :: 2024</text></svg>
