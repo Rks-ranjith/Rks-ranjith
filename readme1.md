@@ -1,12 +1,12 @@
-﻿# Ranjith Kumar S - GitHub Profile
+# Ranjith Kumar S - GitHub Profile
 
 <div align="center">
 
 <!-- DYNAMIC THEME-AWARE HERO BANNER -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="light.svg?v=2">
-  <img alt="Ranjith Kumar S Banner" src="dark.svg?v=2" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="light.svg?v=3">
+  <img alt="Ranjith Kumar S Banner" src="dark.svg?v=3" width="100%">
 </picture>
 
 <br>
@@ -55,26 +55,26 @@ $ cat about.md
 ```
 
 ```bash
-╔══════════════════════════════════════════════════════════════════╗
-║                  root@ranjith-kumar:~# whoami                    ║
-╚══════════════════════════════════════════════════════════════════╝
++------------------------------------------------------------------+
+�                  root@ranjith-kumar:~# whoami                    �
++------------------------------------------------------------------+
 
 > Offensive Security Researcher & AI Security Engineer
 > Final-year B.Tech | CS - Cybersecurity Engineering
 > GM University, Davanagere, Karnataka | CGPA: 8.18/10
-> Builder of AWAP-AI — Autonomous Web App Pentesting Platform
+> Builder of AWAP-AI � Autonomous Web App Pentesting Platform
 > CLLMSE Certified | CompTIA Security+ (In Progress)
 > TryHackMe Top 10% | HackerOne Independent Researcher
-> Specialization: AI/LLM Security · Red Team · MITRE ATT&CK
+> Specialization: AI/LLM Security � Red Team � MITRE ATT&CK
 
-[STATUS] → Seeking Offensive Security / AI Security Internship
-[LOCATION] → Bengaluru, Karnataka, India
-[CONTACT] → ranjithk0117@gmail.com | +91 6361602812
+[STATUS] ? Seeking Offensive Security / AI Security Internship
+[LOCATION] ? Bengaluru, Karnataka, India
+[CONTACT] ? ranjithk0117@gmail.com | +91 6361602812
 ```
 
 ---
 
-## 💻 0x01 ABOUT ME
+## ?? 0x01 ABOUT ME
 
 ```python
 class RanjithKumarS:
@@ -102,14 +102,14 @@ class RanjithKumarS:
 
 ---
 
-## ⚡ 0x02 TECHNICAL EXPERTISE
+## ? 0x02 TECHNICAL EXPERTISE
 
 ```bash
 [root@ranjith-kumar:~]# ./list_skills.sh --verbose
 ```
 
 <details open>
-<summary><b>💻 Programming Languages & Scripting</b></summary>
+<summary><b>?? Programming Languages & Scripting</b></summary>
 <br/>
 <div align="center">
 
@@ -125,7 +125,7 @@ class RanjithKumarS:
 </details>
 
 <details open>
-<summary><b>🎨 Frontend & Real-Time Engineering</b></summary>
+<summary><b>?? Frontend & Real-Time Engineering</b></summary>
 <br/>
 <div align="center">
 
@@ -139,7 +139,7 @@ class RanjithKumarS:
 </details>
 
 <details open>
-<summary><b>⚙️ Backend & Infrastructure</b></summary>
+<summary><b>?? Backend & Infrastructure</b></summary>
 <br/>
 <div align="center">
 
@@ -154,7 +154,7 @@ class RanjithKumarS:
 </details>
 
 <details open>
-<summary><b>🔐 Offensive Security & Red Team Tooling</b></summary>
+<summary><b>?? Offensive Security & Red Team Tooling</b></summary>
 <br/>
 <div align="center">
 
@@ -170,7 +170,7 @@ class RanjithKumarS:
 </details>
 
 <details open>
-<summary><b>🤖 AI / LLM Security Research</b></summary>
+<summary><b>?? AI / LLM Security Research</b></summary>
 <br/>
 <div align="center">
 
@@ -185,7 +185,7 @@ class RanjithKumarS:
 </details>
 
 <details open>
-<summary><b>🛡️ Detection, SIEM & Threat Intelligence</b></summary>
+<summary><b>??? Detection, SIEM & Threat Intelligence</b></summary>
 <br/>
 <div align="center">
 
@@ -202,9 +202,9 @@ class RanjithKumarS:
 
 ---
 
-## 🚀 0x03 PRODUCTION PROJECTS
+## ?? 0x03 PRODUCTION PROJECTS
 
-### 🔴 Project 01 — AWAP-AI: Autonomous Web Application Penetration Testing System
+### ?? Project 01 � AWAP-AI: Autonomous Web Application Penetration Testing System
 *Autonomous pentesting engine combining finite state machine (FSM) choreography with AI analysis.*
 - **Core Architecture**: Engineered a 7-stage automated pentest execution pipeline: Discovery -> Crawling -> Fingerprinting -> Attack Dispatch -> Exploitation -> Verification -> Reporting.
 - **Test Engine**: Developed a headless Playwright crawler for SPA path mapping alongside 19 vulnerability-verification modules (SQLi, XSS, IDOR, SSRF, SSTI, Cmd Injection).
@@ -212,21 +212,21 @@ class RanjithKumarS:
 - **Validation**: Verified against OWASP Juice Shop and DVWA target applications.
 - **Tech Stack**: Python, FastAPI, Playwright, React, WebSockets, Redis, PostgreSQL, Docker.
 
-### 🏰 Project 02 — Active Directory Threat Detection & SIEM Monitoring Lab
+### ?? Project 02 � Active Directory Threat Detection & SIEM Monitoring Lab
 *Enterprise simulation lab simulating red team tactics and monitoring with Wazuh SIEM.*
 - **Subnet Infrastructure**: Provisioned an isolated 5-VM subnet containing Windows Server 2022 DC, Windows 11 Endpoints, Kali Attacker, and Ubuntu SIEM.
 - **Adversary Emulation**: Simulated Kerberoasting, Password Spraying, and Network Reconnaissance via Impacket and CrackMapExec.
 - **SIEM / Logging**: Deployed Wazuh 4.7.5 and Windows Sysmon configured with SwiftOnSecurity rules to achieve full coverage.
 - **Rule Design**: Authored custom Sigma rules mapping to MITRE ATT&CK for Event ID 4769 (RC4 downgrade) and Event ID 4625 (account lockout correlation).
 
-### 🤖 Project 03 — Malicious URL Scanner using Machine Learning
+### ?? Project 03 � Malicious URL Scanner using Machine Learning
 *Supervised machine learning pipeline for real-time threat intelligence.*
 - **Model Training**: Trained a Random Forest classifier on 650,000+ labeled URLs using structural, lexical, entropy, and domain indicators to achieve 97.12% accuracy.
 - **API Integration**: Integrated real-time reputation analysis querying Shodan, VirusTotal, and Google Safe Browsing.
 
 ---
 
-## 📜 0x04 CERTIFICATIONS & BENCHMARKS
+## ?? 0x04 CERTIFICATIONS & BENCHMARKS
 
 ```
 +------------------------------------------------------------+
@@ -246,7 +246,7 @@ class RanjithKumarS:
 
 ---
 
-## 📈 0x05 GITHUB METRICS
+## ?? 0x05 GITHUB METRICS
 
 <div align="center">
 
@@ -265,7 +265,7 @@ class RanjithKumarS:
 
 ---
 
-## 🤝 0x06 CONNECT
+## ?? 0x06 CONNECT
 
 ```bash
 [root@ranjith-kumar:~]# ./get_connect_links.py
