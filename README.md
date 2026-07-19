@@ -6,9 +6,7 @@
 
 <br/>
 
-<img src="assets/connect-bar.svg" width="100%"/>
-
-<br/>
+Bengaluru, India &nbsp;·&nbsp; Open to Internships &nbsp;·&nbsp; Offensive Security & AI/LLM Security
 
 **[ GitHub ](https://github.com/Rks-ranjith)**&nbsp; · &nbsp;**[ LinkedIn ](https://linkedin.com/in/ranjith-kumar-0117d)**&nbsp; · &nbsp;**[ Email ](mailto:ranjithk0117@gmail.com)**
 
@@ -20,17 +18,18 @@
 
 <br/>
 
-<div align="center">
+### `0x00` WHOAMI
 
-`whoami`: Final-year Cybersecurity engineer who'd rather break things than read about them breaking. I build offensive tooling that proves a vulnerability exists instead of just flagging it, from an autonomous AI-driven pentest platform to a self-built Active Directory red-team lab wired into a live SIEM, with a growing focus on attacking the AI systems everyone's racing to ship. Currently chasing internships in offensive security and AI/LLM security.
+Final-year Cybersecurity engineer who'd rather break things than read about them breaking. I build offensive tooling that proves a vulnerability exists instead of just flagging it, from an autonomous AI-driven pentest platform to a self-built Active Directory red-team lab wired into a live SIEM, with a growing focus on attacking the AI systems everyone's racing to ship. Currently chasing internships in offensive security and AI/LLM security.
 
-</div>
-
-<br/>
-
-<div align="center">
-<img src="assets/mission-dossier.svg" width="100%"/>
-</div>
+| | |
+|---|---|
+| **role** | Offensive Security / AI-LLM Security / Detection Eng. Intern |
+| **building** | AWAP-AI :: autonomous pentest platform, 7-stage AI pipeline |
+| **hardening** | 5-VM Active Directory red-team & SOC detection lab |
+| **studying** | CompTIA Security+ (SY0-701) :: exam Aug 2026 |
+| **certified** | LLM Security Expert (CLLMSE) :: prompt injection, RAG, MCP |
+| **verified** | TryHackMe Top 10% (65+ rooms) · HackerOne researcher since 2024 |
 
 <br/>
 
@@ -44,19 +43,26 @@
 
 ```
 ┌─ security_toolkit ──────────────────────────────────────────────────┐
-│  recon / exploit  : Burp Suite · Nmap · Metasploit · Wireshark      │
-│  ad attack        : Impacket · CrackMapExec                         │
-│  automation       : Playwright (headless browser attack automation) │
-│  detection / siem : Wazuh SIEM · Sysmon · Sigma Rules               │
-│  frameworks       : MITRE ATT&CK · OWASP Top 10 · OWASP LLM Top 10  │
-└─────────────────────────────────────────────────────────────────────┘
+│  recon / exploit  : Burp Suite · Nmap · Metasploit · Wireshark       │
+│  ad attack        : Impacket · CrackMapExec                          │
+│  automation       : Playwright (headless browser attack automation)  │
+│  detection / siem : Wazuh SIEM · Sysmon · Sigma Rules                │
+│  frameworks       : MITRE ATT&CK · OWASP Top 10 · OWASP LLM Top 10   │
+└────────────────────────────────────────────────────────────────────┘
 ```
 
 <br/>
 
-<div align="center">
-<img src="assets/ai-security-matrix.svg" width="100%"/>
-</div>
+### `0x02` AI / LLM SECURITY MATRIX
+
+| Domain | Proficiency | Details |
+|---|---|---|
+| `prompt_injection` | 80% | Direct & indirect vector ID + mitigation (CLLMSE) |
+| `rag_security` | 80% | Retrieval pipeline hardening vs poisoning attacks |
+| `ai_agent_security` | 60% | Threat modeling autonomous tool-use chains |
+| `mcp_security` | 60% | Model Context Protocol attack-surface analysis |
+| `owasp_llm_top10` | 80% | Applied coverage, 2025 risk categories |
+| `ai_driven_triage` | 100% | Shipped inside AWAP-AI live verification pipeline |
 
 <br/>
 
@@ -101,7 +107,7 @@ $ crackmapexec smb 192.168.100.0/24 -u users.txt # password spray sim
 [+] detection coverage: 3/3 scenarios, 100%
 ```
 
-Self-built 5-VM enterprise-simulation environment (Windows Server 2022 DC, 2× Win11 endpoints, Kali, Ubuntu SIEM) on an isolated /24 subnet, built for offensive AD research paired with defensive detection engineering.
+Self-built 5-VM enterprise-simulation environment (Windows Server 2022 DC, 2x Win11 endpoints, Kali, Ubuntu SIEM) on an isolated /24 subnet, built for offensive AD research paired with defensive detection engineering.
 
 | | |
 |---|---|
@@ -137,21 +143,43 @@ $ python train.py --dataset urls_650k.csv --model random_forest
 
 <br/>
 
-<div align="center">
-<img src="assets/field-experience.svg" width="100%"/>
-</div>
+### `0x04` FIELD EXPERIENCE
+
+**Independent Security Researcher**
+`HackerOne :: Sep 2024 - Present`
+Bug-bounty & vulnerability research on modern SPA / API architectures.
+
+**CTF Player**
+`TryHackMe :: Nov 2023 - Present`
+65+ rooms across web exploitation, network attacks, Linux privesc, and OSINT.
+
+**Cybersecurity Analyst (Virtual Internship)**
+`Tata Group :: 2024`
+Simulated real-world SOC analyst workflows.
 
 <br/>
 
-<div align="center">
-<img src="assets/achievements.svg" width="100%"/>
-</div>
+### `0x05` ACHIEVEMENTS
+
+| Recognition | Details |
+|---|---|
+| **TryHackMe** | Top 10% global rank · 65+ rooms · active since Nov 2023 |
+| **HackerOne** | Independent researcher · active since Sep 2024 |
+| **CLLMSE** | 150 assessment questions + 10 hands-on labs, AI app attacks |
+| **AD Lab** | 100% detection coverage across all 3 simulated ATT&CK scenarios |
+| **AWAP-AI** | SQLi / XSS / IDOR / Broken Auth confirmed on Juice Shop + DVWA |
 
 <br/>
 
-<div align="center">
-<img src="assets/certifications.svg" width="100%"/>
-</div>
+### `0x06` CERTIFICATIONS & TRAINING
+
+| Status | Certification | Provider |
+|---|---|---|
+| In Progress | CompTIA Security+ (SY0-701) | CompTIA :: expected Aug 2026 |
+| Certified | LLM Security Expert (CLLMSE) | Red Team Leaders :: Jul 2026 |
+| Completed | Pre Security | TryHackMe :: 2025 |
+| Completed | Cybersecurity Analyst Virtual Internship | Tata Group :: 2024 |
+| Completed | Monitor & Log with GCP Observability | Google :: 2024 |
 
 <br/>
 
@@ -180,9 +208,22 @@ $ python train.py --dataset urls_650k.csv --model random_forest
 
 <br/>
 
-<div align="center">
-<img src="assets/current-process.svg" width="100%"/>
-</div>
+### `0x08` CURRENT PROCESS
+
+```yaml
+learning:
+  - Advanced AI agent security & MCP threat modeling
+  - Exploit development for AI application attack surfaces
+  - CompTIA Security+ exam prep
+
+building:
+  - AWAP-AI v2 : expanding AI-driven vulnerability triage engine
+  - New Sigma detection rulesets for the AD SOC lab
+
+open_to:
+  - Offensive Security / Red Team internships
+  - AI & LLM Security research roles
+```
 
 <br/>
 
