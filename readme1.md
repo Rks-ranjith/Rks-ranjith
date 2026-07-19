@@ -2,6 +2,24 @@
 
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050505,35:0d1f12,70:1a0b2e,100:2d0b5e&height=280&section=header&text=RANJITH%20KUMAR%20S&fontSize=52&fontColor=39FF88&fontAlignY=36&desc=Offensive%20Security%20%E2%80%A2%20AI%2FLLM%20Security%20%E2%80%A2%20Detection%20Engineering&descAlignY=54&descSize=16&animation=fadeIn&fontName=Fira+Code" width="100%"/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=700&color=39FF88&center=true&vCenter=true&width=750&lines=root%40kali%3A~%23+building+AWAP-AI+...;root%40kali%3A~%23+red-teaming+Active+Directory...;root%40kali%3A~%23+attacking+LLMs+%7C+prompt+injection+%7C+RAG;root%40kali%3A~%23+status%3A+top+10%25+TryHackMe" alt="typing"/>
+
+<br/>
+
+Bengaluru, India &nbsp;·&nbsp; Open to Internships &nbsp;·&nbsp; Offensive Security & AI/LLM Security
+
+**[ GitHub ](https://github.com/Rks-ranjith)**&nbsp; · &nbsp;**[ LinkedIn ](https://linkedin.com/in/ranjith-kumar-0117d)**&nbsp; · &nbsp;**[ Email ](mailto:ranjithk0117@gmail.com)**
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=Rks-ranjith&style=for-the-badge&color=39FF88&labelColor=0d0d0d&label=PROFILE+VIEWS"/>
+
+</div>
+
+<br/>
+
 <!-- DYNAMIC THEME-AWARE HERO BANNER -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dark.svg?v=6">
@@ -11,296 +29,235 @@
 
 <br>
 
-<!-- METRICS BADGES -->
-<img src="https://komarev.com/ghpvc/?username=Rks-ranjith&style=for-the-badge&color=00ff9f&label=PROFILE+VIEWS&labelColor=0d1117" alt="Views">
-&nbsp;
-<img src="https://img.shields.io/github/followers/Rks-ranjith?style=for-the-badge&color=7aa2f7&labelColor=0d1117&label=FOLLOWERS" alt="Followers">
-&nbsp;
-<img src="https://img.shields.io/badge/Status-Open%20to%20Internships-00ff9f?style=for-the-badge&labelColor=0d1117" alt="Status">
+### 0x00 WHOAMI
 
-<br><br>
+Final-year Cybersecurity engineer who'd rather break things than read about them breaking. I build offensive tooling that proves a vulnerability exists instead of just flagging it, from an autonomous AI-driven pentest platform to a self-built Active Directory red-team lab wired into a live SIEM, with a growing focus on attacking the AI systems everyone's racing to ship. Currently chasing internships in offensive security and AI/LLM security.
 
-<!-- SOCIAL BADGES -->
-<a href="mailto:ranjithk0117@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-ranjithk0117-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" alt="Gmail">
-</a>
-&nbsp;
-<a href="https://linkedin.com/in/ranjith-kumar-0117d">
-  <img src="https://img.shields.io/badge/LinkedIn-ranjith--kumar--0117d-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" alt="LinkedIn">
-</a>
-&nbsp;
-<a href="https://github.com/Rks-ranjith">
-  <img src="https://img.shields.io/badge/GitHub-Rks--ranjith-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="GitHub">
-</a>
-&nbsp;
-<a href="https://tryhackme.com">
-  <img src="https://img.shields.io/badge/TryHackMe-Top%2010%25-212C42?style=for-the-badge&logo=tryhackme&logoColor=white&labelColor=0d1117" alt="TryHackMe">
-</a>
-&nbsp;
-<a href="https://hackerone.com">
-  <img src="https://img.shields.io/badge/HackerOne-Bug%20Researcher-494649?style=for-the-badge&logo=hackerone&logoColor=white&labelColor=0d1117" alt="HackerOne">
-</a>
+| | |
+|---|---|
+| **role** | Offensive Security / AI-LLM Security / Detection Eng. Intern |
+| **building** | AWAP-AI :: autonomous pentest platform, 7-stage AI pipeline |
+| **hardening** | 5-VM Active Directory red-team & SOC detection lab |
+| **studying** | CompTIA Security+ (SY0-701) :: exam Aug 2026 |
+| **certified** | LLM Security Expert (CLLMSE) :: prompt injection, RAG, MCP |
+| **verified** | TryHackMe Top 10% (65+ rooms) · HackerOne researcher since 2024 |
 
-</div>
-
----
-
-```bash
-root@kali:~# building AWAP-AI ...
-B.Tech Cybersecurity Engineering - CGPA 8.18/10 - Bengaluru, India
-Portfolio: github.com/Rks-ranjith | Email: ranjithk0117@gmail.com
-
-(root@ranjith)-[-/profile]
-$ cat about.md
-```
-
-```bash
-+------------------------------------------------------------------+
-|                  root@ranjith-kumar:~# whoami                    |
-+------------------------------------------------------------------+
-
-> Offensive Security Researcher & AI Security Engineer
-> Final-year B.Tech | CS - Cybersecurity Engineering
-> GM University, Davanagere, Karnataka | CGPA: 8.18/10
-> Builder of AWAP-AI -- Autonomous Web App Pentesting Platform
-> CLLMSE Certified | CompTIA Security+ (In Progress)
-> TryHackMe Top 10% | HackerOne Independent Researcher
-> Specialization: AI/LLM Security - Red Team - MITRE ATT&CK
-
-[STATUS] -> Seeking Offensive Security / AI Security Internship
-[LOCATION] -> Bengaluru, Karnataka, India
-[CONTACT] -> ranjithk0117@gmail.com | +91 6361602812
-```
-
----
-
-## 0x01 ABOUT ME
-
-```python
-class RanjithKumarS:
-    def __init__(self):
-        self.username = "Rks-ranjith"
-        self.focus = ["Offensive Security", "AI / LLM Security Research", "Red Team Operations"]
-        self.academic = {
-            "degree": "B.Tech in Computer Science (Cybersecurity Engineering)",
-            "cgpa": 8.18,
-            "status": "Final Year undergraduate"
-        }
-        self.research_areas = [
-            "Autonomous pentesting pipelines (AWAP-AI)",
-            "Prompt Injection, RAG and MCP protocol attacks",
-            "Active Directory simulation and detection engineering"
-        ]
-
-    def get_philosophy(self):
-        return "Building autonomous agents to scale adversarial intelligence and secure AI pipelines."
-```
-
-- **Offensive Focus**: Actively mapping MITRE ATT&CK techniques in Windows/Active Directory labs and auditing SPA/API vulnerabilities.
-- **AI Security Focus**: Specializing in prompt injection chains, indirect prompt injection, and RAG/Agent system security.
-- **Bug Bounty**: Independent vulnerability researcher on HackerOne since Sep 2024.
-
----
-
-## 0x02 TECHNICAL EXPERTISE
-
-```bash
-[root@ranjith-kumar:~]# ./list_skills.sh --verbose
-```
-
-<details open>
-<summary><b>Programming Languages &amp; Scripting</b></summary>
 <br/>
+
+### 0x01 ARSENAL
+
 <div align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
+<img src="https://skillicons.dev/icons?i=python,ts,js,bash,html,css,react,nodejs,postgres,redis,docker,git,linux,windows&theme=dark"/>
 </div>
-</details>
 
-<details open>
-<summary><b>Frontend &amp; Real-Time Engineering</b></summary>
 <br/>
-<div align="center">
-
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socket.io&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-![REST API](https://img.shields.io/badge/REST%20API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-
-</div>
-</details>
-
-<details open>
-<summary><b>Backend &amp; Infrastructure</b></summary>
-<br/>
-<div align="center">
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-</div>
-</details>
-
-<details open>
-<summary><b>Offensive Security &amp; Red Team Tooling</b></summary>
-<br/>
-<div align="center">
-
-![Burp Suite](https://img.shields.io/badge/Burp%20Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-0E83CD?style=for-the-badge&logo=nmap&logoColor=white)
-![Metasploit](https://img.shields.io/badge/Metasploit-2596BE?style=for-the-badge&logo=metasploit&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![Impacket](https://img.shields.io/badge/Impacket-FF0000?style=for-the-badge&logo=python&logoColor=white)
-![CrackMapExec](https://img.shields.io/badge/CrackMapExec-000000?style=for-the-badge&logo=kalilinux&logoColor=white)
-![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-
-</div>
-</details>
-
-<details open>
-<summary><b>AI / LLM Security Research</b></summary>
-<br/>
-<div align="center">
-
-![Prompt Injection](https://img.shields.io/badge/Prompt%20Injection-FF0054?style=for-the-badge&logo=openai&logoColor=white)
-![RAG Security](https://img.shields.io/badge/RAG%20Security-7C3AED?style=for-the-badge&logo=databricks&logoColor=white)
-![AI Agent Security](https://img.shields.io/badge/AI%20Agent%20Security-00D4AA?style=for-the-badge&logo=tensorflow&logoColor=white)
-![MCP Security](https://img.shields.io/badge/MCP%20Security-FF6B35?style=for-the-badge&logo=anthropic&logoColor=white)
-![OWASP LLM Top 10](https://img.shields.io/badge/OWASP%20LLM%20Top%2010-000000?style=for-the-badge&logo=owasp&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-
-</div>
-</details>
-
-<details open>
-<summary><b>Detection, SIEM &amp; Threat Intelligence</b></summary>
-<br/>
-<div align="center">
-
-![Wazuh SIEM](https://img.shields.io/badge/Wazuh%20SIEM-005571?style=for-the-badge&logo=elastic&logoColor=white)
-![Sysmon](https://img.shields.io/badge/Sysmon-0078D4?style=for-the-badge&logo=windows&logoColor=white)
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-FF0000?style=for-the-badge&logo=target&logoColor=white)
-![Sigma Rules](https://img.shields.io/badge/Sigma%20Rules-4A90D9?style=for-the-badge&logo=siemens&logoColor=white)
-![Shodan](https://img.shields.io/badge/Shodan-FF0000?style=for-the-badge&logo=shodan&logoColor=white)
-![VirusTotal](https://img.shields.io/badge/VirusTotal-394EFF?style=for-the-badge&logo=virustotal&logoColor=white)
-![Windows Server 2022](https://img.shields.io/badge/Windows%20Server%202022-0078D4?style=for-the-badge&logo=windows&logoColor=white)
-
-</div>
-</details>
-
----
-
-## 0x03 PRODUCTION PROJECTS
-
-### Project 01 -- AWAP-AI: Autonomous Web Application Penetration Testing System
-*Autonomous pentesting engine combining finite state machine (FSM) choreography with AI analysis.*
-- **Core Architecture**: Engineered a 7-stage automated pentest execution pipeline: Discovery -> Crawling -> Fingerprinting -> Attack Dispatch -> Exploitation -> Verification -> Reporting.
-- **Test Engine**: Developed a headless Playwright crawler for SPA path mapping alongside 19 vulnerability-verification modules (SQLi, XSS, IDOR, SSRF, SSTI, Cmd Injection).
-- **Control Dashboard**: React + TypeScript frontend displaying real-time telemetry over WebSockets and dynamic target attack graphs.
-- **Validation**: Verified against OWASP Juice Shop and DVWA target applications.
-- **Tech Stack**: Python, FastAPI, Playwright, React, WebSockets, Redis, PostgreSQL, Docker.
-
-### Project 02 -- Active Directory Threat Detection &amp; SIEM Monitoring Lab
-*Enterprise simulation lab simulating red team tactics and monitoring with Wazuh SIEM.*
-- **Subnet Infrastructure**: Provisioned an isolated 5-VM subnet containing Windows Server 2022 DC, Windows 11 Endpoints, Kali Attacker, and Ubuntu SIEM.
-- **Adversary Emulation**: Simulated Kerberoasting, Password Spraying, and Network Reconnaissance via Impacket and CrackMapExec.
-- **SIEM / Logging**: Deployed Wazuh 4.7.5 and Windows Sysmon configured with SwiftOnSecurity rules to achieve full coverage.
-- **Rule Design**: Authored custom Sigma rules mapping to MITRE ATT&CK for Event ID 4769 (RC4 downgrade) and Event ID 4625 (account lockout correlation).
-
-### Project 03 -- Malicious URL Scanner using Machine Learning
-*Supervised machine learning pipeline for real-time threat intelligence.*
-- **Model Training**: Trained a Random Forest classifier on 650,000+ labeled URLs using structural, lexical, entropy, and domain indicators to achieve 97.12% accuracy.
-- **API Integration**: Integrated real-time reputation analysis querying Shodan, VirusTotal, and Google Safe Browsing.
-
----
-
-## 0x04 CERTIFICATIONS & BENCHMARKS
 
 ```
-+------------------------------------------------------------+
-|  [+] CLLMSE - Certified LLM Security Expert (Jul 2026)      |
-|      Red Team Leaders: Prompt Injection, RAG, MCP Security  |
-+------------------------------------------------------------+
-|  [+] CompTIA Security+ (SY0-701)                            |
-|      In Progress - Target: Aug 2026                        |
-+------------------------------------------------------------+
-|  [+] TryHackMe Profile                                     |
-|      Top 10% Global Rank | 65+ Challenge Rooms Completed   |
-+------------------------------------------------------------+
-|  [+] Tata Group Internship                                 |
-|      Cybersecurity Analyst Virtual Program (2024)          |
-+------------------------------------------------------------+
+┌─ security_toolkit ───────────────────────────────────────────────────┐
+│  recon / exploit  : Burp Suite · Nmap · Metasploit · Wireshark       │
+│  ad attack        : Impacket · CrackMapExec                          │
+│  automation       : Playwright (headless browser attack automation)  │
+│  detection / siem : Wazuh SIEM · Sysmon · Sigma Rules                │
+│  frameworks       : MITRE ATT&CK · OWASP Top 10 · OWASP LLM Top 10   │
+└──────────────────────────────────────────────────────────────────────┘
 ```
 
----
+<br/>
 
-## 0x05 GITHUB METRICS
+### 0x02 AI / LLM SECURITY MATRIX
+
+| Domain | Proficiency | Details |
+|---|---|---|
+| `prompt_injection` | 80% | Direct & indirect vector ID + mitigation (CLLMSE) |
+| `rag_security` | 80% | Retrieval pipeline hardening vs poisoning attacks |
+| `ai_agent_security` | 60% | Threat modeling autonomous tool-use chains |
+| `mcp_security` | 60% | Model Context Protocol attack-surface analysis |
+| `owasp_llm_top10` | 80% | Applied coverage, 2025 risk categories |
+| `ai_driven_triage` | 100% | Shipped inside AWAP-AI live verification pipeline |
+
+<br/>
+
+### 0x03 OPERATIONS LOG // FEATURED PROJECTS
+
+<details open>
+<summary><b>[>] AWAP-AI :: Autonomous Web Application Penetration Testing System</b></summary>
+<br/>
+
+```
+$ ./awap-ai --target <spa/api> --mode autonomous
+[+] initializing 7-stage FSM attack pipeline...
+[+] launching headless playwright crawler for SPA/API discovery...
+[+] loading 19 modular vulnerability-verification plugins...
+[+] AI triage engine online, prioritizing and verifying findings...
+[+] streaming live telemetry -> react/ts dashboard (websocket)...
+```
+
+Autonomous AI-assisted pentesting platform orchestrating a 7-stage attack pipeline via a finite-state-machine architecture. AI-driven analysis prioritizes and verifies findings before they hit the dashboard.
+
+| | |
+|---|---|
+| **stack** | Python · React · TypeScript · Playwright · WebSockets |
+| **scale** | 7-stage FSM pipeline · 19 verification plugins |
+| **performance** | real-time WebSocket telemetry, live attack-graph rendering |
+| **detects** | SQLi · XSS · IDOR · Broken Authentication |
+| **validated on** | OWASP Juice Shop · DVWA |
+| **repo** | [github.com/Rks-ranjith/AWAP-AI](https://github.com/Rks-ranjith/AWAP-AI) |
+
+</details>
+
+<details>
+<summary><b>[>] Active Directory Threat Detection &amp; SIEM Monitoring Lab</b></summary>
+<br/>
+
+```
+$ nmap -sV 192.168.100.0/24
+$ GetUserSPNs.py CORP.LOCAL/user -request        # kerberoasting sim
+$ crackmapexec smb 192.168.100.0/24 -u users.txt # password spray sim
+[wazuh] alert: Event ID 4769, RC4 downgrade detected
+[wazuh] alert: Event ID 4625 x5, multi-account correlation
+[+] detection coverage: 3/3 scenarios, 100%
+```
+
+Self-built 5-VM enterprise-simulation environment (Windows Server 2022 DC, 2x Win11 endpoints, Kali, Ubuntu SIEM) on an isolated /24 subnet, built for offensive AD research paired with defensive detection engineering.
+
+| | |
+|---|---|
+| **stack** | Windows Server / AD · Wazuh SIEM 4.7.5 · Sysmon · Sigma · Impacket · CrackMapExec · Nmap |
+| **scale** | 5-VM isolated /24 subnet · 100% agent coverage |
+| **attacks simulated** | Kerberoasting (T1558.003) · Password Spraying (T1110.003) · Recon (T1046) |
+| **detection** | custom Sigma rules: Event ID 4769 RC4 downgrade, multi-account 4625 correlation |
+| **deliverable** | full incident-response report: timeline, evidence, root cause, remediation |
+| **repo** | [github.com/Rks-ranjith/active-directory-soc-lab](https://github.com/Rks-ranjith/active-directory-soc-lab) |
+
+</details>
+
+<details>
+<summary><b>[>] Malicious URL Scanner using Machine Learning</b></summary>
+<br/>
+
+```
+$ python train.py --dataset urls_650k.csv --model random_forest
+[+] training on 650,000+ labeled URLs...
+[+] accuracy: 97.12%
+[+] enrichment: shodan + virustotal + google-safe-browsing [online]
+```
+
+| | |
+|---|---|
+| **stack** | Python · Scikit-learn · Random Forest |
+| **scale** | 650,000+ labeled training URLs |
+| **performance** | 97.12% classification accuracy |
+| **enrichment** | Shodan · VirusTotal · Google Safe Browsing (real-time) |
+| **repo** | [github.com/Rks-ranjith/malicious-url-scanner](https://github.com/Rks-ranjith/malicious-url-scanner) |
+
+</details>
+
+<br/>
+
+### 0x04 FIELD EXPERIENCE
+
+**Independent Security Researcher**
+`HackerOne :: Sep 2024 - Present`
+Bug-bounty & vulnerability research on modern SPA / API architectures.
+
+**CTF Player**
+`TryHackMe :: Nov 2023 - Present`
+65+ rooms across web exploitation, network attacks, Linux privesc, and OSINT.
+
+**Cybersecurity Analyst (Virtual Internship)**
+`Tata Group :: 2024`
+Simulated real-world SOC analyst workflows.
+
+<br/>
+
+### 0x05 ACHIEVEMENTS
+
+| Recognition | Details |
+|---|---|
+| **TryHackMe** | Top 10% global rank · 65+ rooms · active since Nov 2023 |
+| **HackerOne** | Independent researcher · active since Sep 2024 |
+| **CLLMSE** | 150 assessment questions + 10 hands-on labs, AI app attacks |
+| **AD Lab** | 100% detection coverage across all 3 simulated ATT&CK scenarios |
+| **AWAP-AI** | SQLi / XSS / IDOR / Broken Auth confirmed on Juice Shop + DVWA |
+
+<br/>
+
+### 0x06 CERTIFICATIONS & TRAINING
+
+| Status | Certification | Provider |
+|---|---|---|
+| In Progress | CompTIA Security+ (SY0-701) | CompTIA :: expected Aug 2026 |
+| Certified | LLM Security Expert (CLLMSE) | Red Team Leaders :: Jul 2026 |
+| Completed | Pre Security | TryHackMe :: 2025 |
+| Completed | Cybersecurity Analyst Virtual Internship | Tata Group :: 2024 |
+| Completed | Monitor & Log with GCP Observability | Google :: 2024 |
+
+<br/>
+
+### 0x07 GITHUB TELEMETRY
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Rks-ranjith&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00ff9f&icon_color=7aa2f7&text_color=c0caf5&ring_color=00ff9f" alt="Stats">
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rks-ranjith&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00ff9f&text_color=c0caf5" alt="Languages">
+<img src="https://github-readme-stats.vercel.app/api?username=Rks-ranjith&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d0d0d&title_color=39FF88&icon_color=A78BFA&text_color=E9D5FF&ring_color=8B5CF6" width="49%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Rks-ranjith&theme=dark&hide_border=true&background=0d0d0d&ring=39FF88&fire=A78BFA&currStreakLabel=39FF88" width="49%"/>
 
-<br><br>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rks-ranjith&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d0d0d&title_color=39FF88&text_color=E9D5FF" width="49%"/>
 
-<img src="https://streak-stats.demolab.com?user=Rks-ranjith&theme=tokyonight-duo&hide_border=true&background=0d1117&stroke=00ff9f&ring=00ff9f&fire=f7768e&currStreakLabel=7aa2f7&sideLabels=c0caf5&dates=565f89&sideNums=00ff9f&currStreakNum=00ff9f" alt="Streak">
-
-<br><br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Rks-ranjith&bg_color=0d1117&color=00ff9f&line=7aa2f7&point=f7768e&area=true&area_color=00ff9f&hide_border=true&custom_title=Contribution%20Activity%20Graph" alt="Activity Graph" width="100%">
-
-<br><br>
+</div>
 
 <div align="center">
-<!-- GitHub Profile Summary Cards -->
+<img src="https://github-profile-trophy.vercel.app/?username=Rks-ranjith&theme=algolia&no-frame=true&no-bg=true&row=1&column=6&margin-w=8"/>
+</div>
+
+<br>
+
+<div align="center">
+<!-- GitHub Profile Summary Cards (from last image) -->
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Rks-ranjith&theme=tokyonight" alt="Profile Summary Details" width="100%">
 <br><br>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Rks-ranjith&theme=tokyonight" alt="Repos Per Language" width="32.8%">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Rks-ranjith&theme=tokyonight" alt="Most Commit Language" width="32.8%">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Rks-ranjith&theme=tokyonight" alt="Stats Summary" width="32.8%">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Rks-ranjith&theme=tokyonight" alt="Repos Per Language" height="180em">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Rks-ranjith&theme=tokyonight" alt="Most Commit Language" height="180em">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Rks-ranjith&theme=tokyonight" alt="Stats Summary" height="180em">
 </div>
 
 <br><br>
 
 <div align="center">
-<!-- GitHub Contribution Snake Graph -->
-<img src="https://raw.githubusercontent.com/Rks-ranjith/Rks-ranjith/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="100%">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Rks-ranjith&theme=react-dark&bg_color=0d0d0d&color=39FF88&line=8B5CF6&point=E9D5FF&hide_border=true" width="100%"/>
 </div>
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/Rks-ranjith/Rks-ranjith/output/github-contribution-grid-snake-dark.svg" width="100%"/>
 </div>
 
----
+<br/>
 
-## 0x06 CONNECT
+### 0x08 CURRENT PROCESS
 
-```bash
-[root@ranjith-kumar:~]# ./get_connect_links.py
+```yaml
+learning:
+  - Advanced AI agent security & MCP threat modeling
+  - Exploit development for AI application attack surfaces
+  - CompTIA Security+ exam prep
+
+building:
+  - AWAP-AI v2 : expanding AI-driven vulnerability triage engine
+  - New Sigma detection rulesets for the AD SOC lab
+
+open_to:
+  - Offensive Security / Red Team internships
+  - AI & LLM Security research roles
 ```
-- **Email**: [ranjithk0117@gmail.com](mailto:ranjithk0117@gmail.com)
-- **LinkedIn**: [linkedin.com/in/ranjith-kumar-0117d](https://linkedin.com/in/ranjith-kumar-0117d)
-- **GitHub**: [github.com/Rks-ranjith](https://github.com/Rks-ranjith)
-- **TryHackMe**: [tryhackme.com/p/Rks.0117](https://tryhackme.com)
-- **HackerOne**: [hackerone.com/ranjithk0117](https://hackerone.com)
 
----
+<br/>
+
+<div align="center">
 
 ```
-+--------------------------------------------------------------------------+
-|  "The best offense is understanding defense from the inside out.         |
-|   I don't just find vulnerabilities - I build machines that think        |
-|   like attackers, so defenders can finally think faster than them."      |
-|                                                      - Ranjith Kumar S   |
-+--------------------------------------------------------------------------+
+"Security without engineering discipline is theater.
+ I build systems that prove the vulnerability, not just claim it."
 ```
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2d0b5e,50:1a0b2e,100:050505&height=150&section=footer"/>
+
+</div>
