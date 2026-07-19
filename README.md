@@ -4,13 +4,12 @@
 
 <div align="center">
 
-<!-- ------------------- MATRIX RAIN BANNER ------------------- -->
-<img src="https://capsule-render.vercel.app/api?type=venom&height=280&color=0:0d1117,50:1a1b27,100:0d1117&text=Ranjith%20Kumar%20S&fontColor=00ff9f&fontSize=52&fontAlignY=45&desc=Offensive%20Security%20%7C%20AI%20Security%20%7C%20Red%20Team%20Research&descAlignY=68&descColor=7aa2f7&animation=fadeIn&stroke=00ff9f&strokeWidth=1" width="100%"/>
-
-<!-- ------------------- ANIMATED TYPING BANNER ------------------- -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=800&color=00FF9F&center=true&vCenter=true&multiline=false&random=false&width=700&height=55&lines=%F0%9F%94%93+Offensive+Security+Researcher;%F0%9F%A4%96+AI+%26+LLM+Security+Engineer;%F0%9F%8F%B9+Red+Team+Specialist+%7C+MITRE+ATT%26CK;%F0%9F%94%AC+Adversarial+AI+%26+Prompt+Injection+Expert;%F0%9F%9B%A1%EF%B8%8F+Autonomous+Pentesting+%7C+AWAP-AI+Builder;%E2%9A%A1+Cybersecurity+Undergraduate+%40+GM+University" alt="Typing SVG" />
-</a>
+<!-- ------------------- DYNAMIC THEME-AWARE HERO BANNER ------------------- -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="light.svg">
+  <img alt="Ranjith Kumar S Hero Banner" src="dark.svg" width="100%">
+</picture>
 
 <br/>
 
