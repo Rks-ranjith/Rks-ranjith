@@ -27,6 +27,14 @@
 <br/>
 
 <div align="center">
+
+`whoami` — Final-year Cybersecurity engineer who'd rather break things than read about them breaking. I build offensive tooling that proves a vulnerability exists instead of just flagging it — an autonomous AI-driven pentest platform, a self-built Active Directory red-team lab wired into a live SIEM, and a growing focus on attacking the AI systems everyone's racing to ship. Currently chasing internships in offensive security and AI/LLM security.
+
+</div>
+
+<br/>
+
+<div align="center">
 <img src="assets/mission-dossier.svg" width="100%"/>
 </div>
 
