@@ -2,15 +2,24 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:050505,35:0d1f12,70:1a0b2e,100:2d0b5e&height=280&section=header&text=RANJITH%20KUMAR%20S&fontSize=52&fontColor=39FF88&fontAlignY=36&desc=Offensive%20Security%20%E2%80%A2%20AI%2FLLM%20Security%20%E2%80%A2%20Detection%20Engineering&descAlignY=54&descSize=16&animation=fadeIn&fontName=Fira+Code" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=700&color=39FF88&center=true&vCenter=true&width=750&lines=root%40kali%3A~%23+building+AWAP-AI+...;root%40kali%3A~%23+red-teaming+Active+Directory...;root%40kali%3A~%23+attacking+LLMs+%7C+prompt+injection+%7C+RAG;root%40kali%3A~%23+status%3A+top+10%25+TryHackMe" alt="typing"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=700&color=39FF88&center=true&vCenter=true&width=750&lines=root%40kali%3A~%23+building+AWAP-AI+...;root%40kali%3A~%23+red-teaming+Active+Directory...;root%40kali%3A~%23+attacking+LLMs+%7C+prompt+injection+%7C+RAG;root%40kali%3A~%23+status%3A+top+10%25+TryHackMe" alt="typing"/>
 
 <br/>
 
-**B.Tech Cybersecurity Engineering** &nbsp;·&nbsp; CGPA 8.18/10 &nbsp;·&nbsp; Bengaluru, India
+<img src="https://img.shields.io/badge/Bengaluru-India-0d0d0d?style=for-the-badge&labelColor=0d0d0d&color=8B5CF6"/>&nbsp;
+<img src="https://img.shields.io/badge/Status-Open_to_Internships-0d0d0d?style=for-the-badge&labelColor=0d0d0d&color=39FF88"/>
 
-[**Portfolio**](https://github.com/Rks-ranjith) &nbsp;·&nbsp; [**LinkedIn**](https://linkedin.com/in/ranjith-kumar-0117d) &nbsp;·&nbsp; [**Email**](mailto:ranjithk0117@gmail.com) &nbsp;·&nbsp; [**GitHub**](https://github.com/Rks-ranjith)
+<br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=Rks-ranjith&style=for-the-badge&color=39FF88&labelColor=0d0d0d&label=PROFILE+VIEWS"/>
+[![GitHub](https://img.shields.io/badge/GitHub-Rks--ranjith-0d0d0d?style=for-the-badge&logo=github&logoColor=39FF88)](https://github.com/Rks-ranjith)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0d0d0d?style=for-the-badge&logo=linkedin&logoColor=A78BFA)](https://linkedin.com/in/ranjith-kumar-0117d)
+[![Email](https://img.shields.io/badge/Email-Contact-0d0d0d?style=for-the-badge&logo=gmail&logoColor=E9D5FF)](mailto:ranjithk0117@gmail.com)
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=Rks-ranjith&style=for-the-badge&color=39FF88&labelColor=0d0d0d&label=PROFILE+VIEWS"/>&nbsp;
+<img src="https://img.shields.io/github/followers/Rks-ranjith?style=for-the-badge&logo=github&labelColor=0d0d0d&color=8B5CF6&label=FOLLOWERS"/>&nbsp;
+<img src="https://img.shields.io/github/stars/Rks-ranjith/AWAP-AI?style=for-the-badge&logo=github&labelColor=0d0d0d&color=A78BFA&label=STARS"/>
 
 </div>
 
@@ -28,14 +37,16 @@
 <img src="https://skillicons.dev/icons?i=python,ts,js,bash,html,css,react,nodejs,postgres,redis,docker,git,linux,windows&theme=dark"/>
 </div>
 
+<br/>
+
 ```
-┌─ security_toolkit ─────────────────────────────────────────────────┐
-│  recon / exploit  : Burp Suite · Nmap · Metasploit · Wireshark      │
-│  ad attack        : Impacket · CrackMapExec                         │
-│  automation       : Playwright (headless browser attack automation) │
+┌─ security_toolkit ──────────────────────────────────────────────────┐
+│  recon / exploit  : Burp Suite · Nmap · Metasploit · Wireshark       │
+│  ad attack        : Impacket · CrackMapExec                          │
+│  automation       : Playwright (headless browser attack automation)  │
 │  detection / siem : Wazuh SIEM · Sysmon · Sigma Rules                │
-│  frameworks       : MITRE ATT&CK · OWASP Top 10 · OWASP LLM Top 10  │
-└───────────────────────────────────────────────────────────────────┘
+│  frameworks       : MITRE ATT&CK · OWASP Top 10 · OWASP LLM Top 10   │
+└────────────────────────────────────────────────────────────────────┘
 ```
 
 <br/>
