@@ -267,6 +267,24 @@ class RanjithKumarS:
 <!-- GitHub Profile Summary Cards -->
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Rks-ranjith&theme=tokyonight" alt="Profile Summary Details" width="100%">
 <br><br>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Rks-ranjith&theme=tokyonight" alt="Repos Per Language" width="32.8%">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Rks-ranjith&theme=tokyonight" alt="Most Commit Language" width="32.8%">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Rks-ranjith&theme=tokyonight" alt="Stats Summary" width="32.8%">
+</div>
+
+<br><br>
+
+<div align="center">
+<!-- GitHub Contribution Snake Graph -->
+<img src="https://raw.githubusercontent.com/Rks-ranjith/Rks-ranjith/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="100%">
+</div>
+
+<br><br>
+
+<div align="center">
+<!-- GitHub Profile Summary Cards -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Rks-ranjith&theme=tokyonight" alt="Profile Summary Details" width="100%">
+<br><br>
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Rks-ranjith&theme=tokyonight" alt="Repos Per Language" height="180em">
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Rks-ranjith&theme=tokyonight" alt="Most Commit Language" height="180em">
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Rks-ranjith&theme=tokyonight" alt="Stats Summary" height="180em">
