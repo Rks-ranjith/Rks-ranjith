@@ -1,0 +1,402 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="1180" height="610">
+  <defs>
+    <!-- Background gradients -->
+    <radialGradient id="bgGlow1" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#f8fafc" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="bgGlow2" cx="80%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#f8fafc" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Radar Sweep Gradient -->
+    <linearGradient id="radarSweep" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.25" />
+      <stop offset="50%" stop-color="#06b6d4" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Text gradient -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="50%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+
+    <!-- Drop Shadows -->
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000000" flood-opacity="0.15" />
+    </filter>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Typing clip path for terminal title -->
+    <clipPath id="typingClip1">
+      <rect x="0" y="0" width="0" height="30">
+        <animate attributeName="width" values="0;250;250;0;0" keyTimes="0;0.4;0.8;0.95;1" dur="5s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="typingClip2">
+      <rect x="0" y="0" width="0" height="30">
+        <animate attributeName="width" values="0;250;250;0;0" keyTimes="0;0.4;0.8;0.95;1" dur="5s" begin="5s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="typingClip3">
+      <rect x="0" y="0" width="0" height="30">
+        <animate attributeName="width" values="0;250;250;0;0" keyTimes="0;0.4;0.8;0.95;1" dur="5s" begin="10s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+
+    <!-- Sequential Line reveals -->
+    <clipPath id="lineClip1">
+      <rect x="0" y="0" width="0" height="30">
+        <animate attributeName="width" from="0" to="580" dur="0.8s" begin="1.5s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="lineClip2">
+      <rect x="0" y="0" width="0" height="30">
+        <animate attributeName="width" from="0" to="580" dur="0.8s" begin="2.1s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="lineClip3">
+      <rect x="0" y="0" width="0" height="30">
+        <animate attributeName="width" from="0" to="580" dur="0.8s" begin="2.7s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="lineClip4">
+      <rect x="0" y="0" width="0" height="30">
+        <animate attributeName="width" from="0" to="580" dur="0.8s" begin="3.3s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="lineClip5">
+      <rect x="0" y="0" width="0" height="30">
+        <animate attributeName="width" from="0" to="580" dur="0.8s" begin="3.9s" fill="freeze" />
+      </rect>
+    </clipPath>
+  </defs>
+
+  <!-- Styles -->
+  <style>
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-6px); }
+      100% { transform: translateY(0px); }
+    }
+
+    @keyframes scanline {
+      0% { transform: translateY(-610px); }
+      100% { transform: translateY(610px); }
+    }
+
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+
+    @keyframes rotateRadar {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    @keyframes gridPulse {
+      0% { opacity: 0.15; }
+      50% { opacity: 0.3; }
+      100% { opacity: 0.15; }
+    }
+
+    @keyframes glitchText {
+      0% { transform: translate(0) }
+      20% { transform: translate(-1px, 1px) }
+      40% { transform: translate(-1px, -1px) }
+      60% { transform: translate(1px, 1px) }
+      80% { transform: translate(1px, -1px) }
+      100% { transform: translate(0) }
+    }
+
+    .float-panel {
+      animation: float 6s ease-in-out infinite;
+    }
+
+    .terminal-text {
+      font-family: 'JetBrains Mono', 'Fira Code', monospace;
+      font-size: 15px;
+      fill: #0f172a;
+    }
+
+    .terminal-header {
+      font-family: 'JetBrains Mono', 'Fira Code', monospace;
+      font-size: 13px;
+      fill: #64748b;
+    }
+
+    .blink-cursor {
+      animation: blink 0.8s infinite;
+      fill: #10b981;
+    }
+
+    .pill {
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+
+    .pill:hover {
+      fill: #10b981;
+      filter: url(#glow);
+    }
+
+    .radar-sweep {
+      transform-origin: 200px 175px;
+      animation: rotateRadar 4s infinite linear;
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="100%" height="100%" fill="#f8fafc" rx="24" />
+
+  <!-- Background Glowing Orbs -->
+  <rect width="100%" height="100%" fill="url(#bgGlow1)" rx="24" />
+  <rect width="100%" height="100%" fill="url(#bgGlow2)" rx="24" />
+
+  <!-- Cyber Grid Pattern (Hacker Style) -->
+  <g opacity="0.2" style="animation: gridPulse 4s infinite ease-in-out;">
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#06b6d4" stroke-width="0.5" />
+    </pattern>
+    <rect width="100%" height="100%" fill="url(#grid)" rx="24" />
+  </g>
+
+  <!-- Scanline sweep line -->
+  <line x1="0" y1="0" x2="1180" y2="0" stroke="#10b981" stroke-opacity="0.1" stroke-width="2" style="animation: scanline 8s infinite linear;" />
+
+  <!-- ================= LEFT SIDE: RADAR SCANNER & HUD ================= -->
+  <g transform="translate(40, 40)" class="float-panel">
+    <!-- Panel Glass Container -->
+    <rect width="400" height="530" rx="16" fill="#ffffff" fill-opacity="0.8" stroke="rgba(37, 99, 235, 0.15)" stroke-width="1.5" filter="url(#shadow)" />
+    
+    <!-- Shimmer Top Edge -->
+    <path d="M 1.5,16 A 14.5,14.5 0 0,1 16,1.5 L 384,1.5 A 14.5,14.5 0 0,1 398.5,16" stroke="rgba(37, 99, 235, 0.15)" stroke-width="1" fill="none" />
+
+    <!-- HUD Headers -->
+    <circle cx="25" cy="25" r="5" fill="#ff3e3e" />
+    <text x="42" y="29" class="terminal-header" font-weight="bold">TARGET_ACQUISITION.sh</text>
+
+    <!-- Radar Scanning Visualizer -->
+    <g transform="translate(0, 50)">
+      <!-- Radar Outer Rings -->
+      <circle cx="200" cy="175" r="110" fill="none" stroke="#06b6d4" stroke-opacity="0.1" stroke-dasharray="4 4" />
+      <circle cx="200" cy="175" r="90" fill="none" stroke="#06b6d4" stroke-opacity="0.2" />
+      <circle cx="200" cy="175" r="70" fill="none" stroke="#06b6d4" stroke-opacity="0.3" stroke-dasharray="8 4" />
+      <circle cx="200" cy="175" r="50" fill="none" stroke="#06b6d4" stroke-opacity="0.4" />
+      <circle cx="200" cy="175" r="30" fill="none" stroke="#10b981" stroke-opacity="0.5" />
+      
+      <!-- Axis Lines -->
+      <line x1="80" y1="175" x2="320" y2="175" stroke="#06b6d4" stroke-opacity="0.15" />
+      <line x1="200" y1="55" x2="200" y2="295" stroke="#06b6d4" stroke-opacity="0.15" />
+      
+      <!-- Rotating sweep -->
+      <path class="radar-sweep" d="M 200,175 L 290,120 A 110,110 0 0,0 200,65 Z" fill="url(#radarSweep)" />
+
+      <!-- Glowing Center Target Shield -->
+      <g transform="translate(186, 161)">
+        <path d="M14,4 L4,9 L4,20 C4,26 14,32 14,32 C14,32 24,26 24,20 L24,9 Z" fill="none" stroke="#10b981" stroke-width="2" filter="url(#glow)" />
+        <circle cx="14" cy="16" r="3" fill="#10b981" />
+        <path d="M14,19 L14,24" stroke="#10b981" stroke-width="2" />
+      </g>
+    </g>
+
+    <!-- Diagnostic Details (Hacker Style) -->
+    <g transform="translate(30, 360)">
+      <rect x="0" y="0" width="340" height="140" rx="8" fill="#ffffff" fill-opacity="0.6" stroke="rgba(37, 99, 235, 0.15)" stroke-width="1" />
+      
+      <!-- Diagnostics Log Lines -->
+      <text x="15" y="25" font-family="'JetBrains Mono', monospace" font-size="11" fill="#10b981">[+] STATUS  : ONLINE</text>
+      <text x="15" y="45" font-family="'JetBrains Mono', monospace" font-size="11" fill="#64748b">[+] ENGINE  : AWAP-AI (ACTIVE)</text>
+      <text x="15" y="65" font-family="'JetBrains Mono', monospace" font-size="11" fill="#64748b">[+] LAB_NET : 10.0.2.0/24 (AD_SOC)</text>
+      <text x="15" y="85" font-family="'JetBrains Mono', monospace" font-size="11" fill="#64748b">[+] CTF_RNK : TOP 10% TRYHACKME</text>
+      <text x="15" y="105" font-family="'JetBrains Mono', monospace" font-size="11" fill="#06b6d4">[+] TARGETS : OWASP TOP 10 &amp; LLMS</text>
+      <text x="15" y="125" font-family="'JetBrains Mono', monospace" font-size="11" fill="#64748b">[+] PORTFOLIO_CONNECTED: TRUE</text>
+    </g>
+  </g>
+
+  <!-- ================= RIGHT SIDE: TERMINAL WINDOW ================= -->
+  <g transform="translate(490, 40)">
+    <!-- Terminal Glass Container -->
+    <rect width="650" height="530" rx="16" fill="#ffffff" fill-opacity="0.9" stroke="rgba(37, 99, 235, 0.15)" stroke-width="1.5" filter="url(#shadow)" />
+    
+    <!-- Shimmer Top Edge -->
+    <path d="M 1.5,16 A 14.5,14.5 0 0,1 16,1.5 L 634,1.5 A 14.5,14.5 0 0,1 648.5,16" stroke="rgba(37, 99, 235, 0.15)" stroke-width="1" fill="none" />
+
+    <!-- Terminal Controls -->
+    <circle cx="25" cy="25" r="6" fill="#ff5f56" />
+    <circle cx="45" cy="25" r="6" fill="#ffbd2e" />
+    <circle cx="65" cy="25" r="6" fill="#27c93f" />
+    <text x="85" y="29" class="terminal-header">root@kali:~#</text>
+    <text x="610" y="30" class="terminal-header" text-anchor="end">cat info.txt</text>
+
+    <!-- Terminal Content Area -->
+    <g transform="translate(25, 60)">
+      
+      <!-- Welcome Line (Command output) -->
+      <g>
+        <text x="0" y="20" class="terminal-text" fill="#10b981">root@kali:~# <tspan fill="#0f172a">cat /etc/profile.d/info.txt</tspan></text>
+      </g>
+
+      <!-- Horizontal Divider -->
+      <g style="animation: fadeIn 0.4s ease-out 0.5s forwards; opacity: 0;">
+        <text x="0" y="45" class="terminal-text" fill="#64748b">------------------------------------------------------</text>
+      </g>
+
+      <!-- Target details, typed sequentially -->
+      <g style="animation: fadeIn 0.4s ease-out 0.8s forwards; opacity: 0;">
+        <g clip-path="url(#lineClip1)">
+          <text x="0" y="70" class="terminal-text"><tspan fill="#06b6d4">[+] NAME      :</tspan> Ranjith Kumar S</text>
+        </g>
+        <g clip-path="url(#lineClip2)">
+          <text x="0" y="95" class="terminal-text"><tspan fill="#06b6d4">[+] FIELD     :</tspan> Offensive Security &amp; AI Security</text>
+        </g>
+        <g clip-path="url(#lineClip3)">
+          <text x="0" y="120" class="terminal-text"><tspan fill="#06b6d4">[+] EDUCATION :</tspan> B.Tech CS - Cybersecurity (CGPA: 8.18)</text>
+        </g>
+        <g clip-path="url(#lineClip4)">
+          <text x="0" y="145" class="terminal-text"><tspan fill="#06b6d4">[+] LOCATION  :</tspan> Bengaluru, Karnataka, India</text>
+        </g>
+        <g clip-path="url(#lineClip5)">
+          <text x="0" y="170" class="terminal-text"><tspan fill="#06b6d4">[+] CONTACT   :</tspan> ranjithk0117@gmail.com</text>
+        </g>
+      </g>
+
+      <!-- Divider -->
+      <g style="animation: fadeIn 0.4s ease-out 4.5s forwards; opacity: 0;">
+        <text x="0" y="195" class="terminal-text" fill="#64748b">------------------------------------------------------</text>
+      </g>
+
+      <!-- command 2: skills execution -->
+      <g style="animation: fadeIn 0.4s ease-out 4.8s forwards; opacity: 0;">
+        <text x="0" y="225" class="terminal-text" fill="#10b981">root@kali:~# <tspan fill="#0f172a">./skills_audit.sh</tspan></text>
+      </g>
+
+      <!-- Skills Area -->
+      <g transform="translate(0, 245)" style="animation: fadeIn 0.4s ease-out 5.3s forwards; opacity: 0;">
+        <!-- Row 1 of Skills -->
+        <g transform="translate(0, 10)">
+          <!-- Python -->
+          <g class="pill" transform="translate(0, 0)">
+            <rect width="85" height="28" rx="6" fill="rgba(255, 255, 255, 0.95)" stroke="rgba(37, 99, 235, 0.2)" stroke-width="1" />
+            <text x="42.5" y="18" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" fill="#0f172a">Python</text>
+          </g>
+          <!-- FastAPI -->
+          <g class="pill" transform="translate(95, 0)">
+            <rect width="90" height="28" rx="6" fill="rgba(255, 255, 255, 0.95)" stroke="rgba(37, 99, 235, 0.2)" stroke-width="1" />
+            <text x="45" y="18" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" fill="#0f172a">FastAPI</text>
+          </g>
+          <!-- Playwright -->
+          <g class="pill" transform="translate(195, 0)">
+            <rect width="110" height="28" rx="6" fill="rgba(255, 255, 255, 0.95)" stroke="rgba(37, 99, 235, 0.2)" stroke-width="1" />
+            <text x="55" y="18" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" fill="#0f172a">Playwright</text>
+          </g>
+          <!-- Wazuh -->
+          <g class="pill" transform="translate(315, 0)">
+            <rect width="85" height="28" rx="6" fill="rgba(255, 255, 255, 0.95)" stroke="rgba(37, 99, 235, 0.2)" stroke-width="1" />
+            <text x="42.5" y="18" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" fill="#0f172a">Wazuh</text>
+          </g>
+          <!-- Docker -->
+          <g class="pill" transform="translate(410, 0)">
+            <rect width="85" height="28" rx="6" fill="rgba(255, 255, 255, 0.95)" stroke="rgba(37, 99, 235, 0.2)" stroke-width="1" />
+            <text x="42.5" y="18" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" fill="#0f172a">Docker</text>
+          </g>
+          <!-- Bash -->
+          <g class="pill" transform="translate(505, 0)">
+            <rect width="75" height="28" rx="6" fill="rgba(255, 255, 255, 0.95)" stroke="rgba(37, 99, 235, 0.2)" stroke-width="1" />
+            <text x="37.5" y="18" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" fill="#0f172a">Bash</text>
+          </g>
+        </g>
+
+        <!-- Row 2 of Skills -->
+        <g transform="translate(0, 48)">
+          <!-- Burp Suite -->
+          <g class="pill" transform="translate(0, 0)">
+            <rect width="110" height="28" rx="6" fill="rgba(255, 255, 255, 0.95)" stroke="rgba(37, 99, 235, 0.2)" stroke-width="1" />
+            <text x="55" y="18" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" fill="#0f172a">Burp Suite</text>
+          </g>
+          <!-- Metasploit -->
+          <g class="pill" transform="translate(120, 0)">
+            <rect width="110" height="28" rx="6" fill="rgba(255, 255, 255, 0.95)" stroke="rgba(37, 99, 235, 0.2)" stroke-width="1" />
+            <text x="55" y="18" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" fill="#0f172a">Metasploit</text>
+          </g>
+          <!-- AD Pen -->
+          <g class="pill" transform="translate(240, 0)">
+            <rect width="110" height="28" rx="6" fill="rgba(255, 255, 255, 0.95)" stroke="rgba(37, 99, 235, 0.2)" stroke-width="1" />
+            <text x="55" y="18" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" fill="#0f172a">Active Dir</text>
+          </g>
+          <!-- LLM Sec -->
+          <g class="pill" transform="translate(360, 0)">
+            <rect width="110" height="28" rx="6" fill="rgba(255, 255, 255, 0.95)" stroke="rgba(37, 99, 235, 0.2)" stroke-width="1" />
+            <text x="55" y="18" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" fill="#0f172a">LLM Security</text>
+          </g>
+          <!-- React -->
+          <g class="pill" transform="translate(480, 0)">
+            <rect width="80" height="28" rx="6" fill="rgba(255, 255, 255, 0.95)" stroke="rgba(37, 99, 235, 0.2)" stroke-width="1" />
+            <text x="40" y="18" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" fill="#0f172a">React</text>
+          </g>
+        </g>
+      </g>
+
+      <!-- command 3: connect execution -->
+      <g style="animation: fadeIn 0.4s ease-out 5.8s forwards; opacity: 0;">
+        <text x="0" y="355" class="terminal-text" fill="#10b981">root@kali:~# <tspan fill="#0f172a">./connect.sh</tspan></text>
+      </g>
+
+      <!-- Social Icons Row -->
+      <g transform="translate(0, 375)" style="animation: fadeIn 0.4s ease-out 6.3s forwards; opacity: 0;">
+        <!-- Social buttons -->
+        <g transform="translate(0, 10)">
+          <!-- GitHub -->
+          <a href="https://github.com/Rks-ranjith" target="_blank">
+            <g transform="translate(0, 0)" class="pill">
+              <rect width="120" height="32" rx="6" fill="rgba(255, 255, 255, 0.95)" stroke="rgba(37, 99, 235, 0.2)" stroke-width="1" />
+              <text x="20" y="20" font-family="'JetBrains Mono', monospace" font-size="12" fill="#10b981">[+]</text>
+              <text x="45" y="20" font-family="'JetBrains Mono', monospace" font-weight="bold" font-size="12" fill="#0f172a">GitHub</text>
+            </g>
+          </a>
+          <!-- LinkedIn -->
+          <a href="https://linkedin.com/in/ranjith-kumar-0117d" target="_blank">
+            <g transform="translate(135, 0)" class="pill">
+              <rect width="130" height="32" rx="6" fill="rgba(255, 255, 255, 0.95)" stroke="rgba(37, 99, 235, 0.2)" stroke-width="1" />
+              <text x="20" y="20" font-family="'JetBrains Mono', monospace" font-size="12" fill="#06b6d4">[+]</text>
+              <text x="45" y="20" font-family="'JetBrains Mono', monospace" font-weight="bold" font-size="12" fill="#0f172a">LinkedIn</text>
+            </g>
+          </a>
+          <!-- TryHackMe -->
+          <a href="https://tryhackme.com" target="_blank">
+            <g transform="translate(280, 0)" class="pill">
+              <rect width="140" height="32" rx="6" fill="rgba(255, 255, 255, 0.95)" stroke="rgba(37, 99, 235, 0.2)" stroke-width="1" />
+              <text x="20" y="20" font-family="'JetBrains Mono', monospace" font-size="12" fill="#10b981">[+]</text>
+              <text x="45" y="20" font-family="'JetBrains Mono', monospace" font-weight="bold" font-size="12" fill="#0f172a">TryHackMe</text>
+            </g>
+          </a>
+          <!-- HackerOne -->
+          <a href="https://hackerone.com" target="_blank">
+            <g transform="translate(435, 0)" class="pill">
+              <rect width="140" height="32" rx="6" fill="rgba(255, 255, 255, 0.95)" stroke="rgba(37, 99, 235, 0.2)" stroke-width="1" />
+              <text x="20" y="20" font-family="'JetBrains Mono', monospace" font-size="12" fill="#06b6d4">[+]</text>
+              <text x="45" y="20" font-family="'JetBrains Mono', monospace" font-weight="bold" font-size="12" fill="#0f172a">HackerOne</text>
+            </g>
+          </a>
+        </g>
+      </g>
+
+      <!-- Terminal Cursor Line -->
+      <g style="animation: fadeIn 0.4s ease-out 6.8s forwards; opacity: 0;">
+        <text x="0" y="445" class="terminal-text" fill="#10b981">root@kali:~# <tspan fill="#0f172a" class="blink-cursor">█</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
