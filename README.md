@@ -42,13 +42,13 @@ Final-year Cybersecurity engineer who'd rather break things than read about them
 <br/>
 
 ```
-┌─ security_toolkit ──────────────────────────────────────────────────┐
+┌─ security_toolkit ───────────────────────────────────────────────────┐
 │  recon / exploit  : Burp Suite · Nmap · Metasploit · Wireshark       │
 │  ad attack        : Impacket · CrackMapExec                          │
 │  automation       : Playwright (headless browser attack automation)  │
 │  detection / siem : Wazuh SIEM · Sysmon · Sigma Rules                │
 │  frameworks       : MITRE ATT&CK · OWASP Top 10 · OWASP LLM Top 10   │
-└────────────────────────────────────────────────────────────────────┘
+└──────────────────────────────────────────────────────────────────────┘
 ```
 
 <br/>
