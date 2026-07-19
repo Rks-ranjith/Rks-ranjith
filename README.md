@@ -6,10 +6,9 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/Bengaluru-India-0d0d0d?style=for-the-badge&labelColor=0d0d0d&color=8B5CF6"/>&nbsp;
-<img src="https://img.shields.io/badge/Status-Open_to_Internships-0d0d0d?style=for-the-badge&labelColor=0d0d0d&color=39FF88"/>
+<img src="assets/connect-bar.svg" width="100%"/>
 
-<br/><br/>
+<br/>
 
 [![GitHub](https://img.shields.io/badge/GitHub-Rks--ranjith-0d0d0d?style=for-the-badge&logo=github&logoColor=39FF88)](https://github.com/Rks-ranjith)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0d0d0d?style=for-the-badge&logo=linkedin&logoColor=A78BFA)](https://linkedin.com/in/ranjith-kumar-0117d)
@@ -20,6 +19,8 @@
 <img src="https://komarev.com/ghpvc/?username=Rks-ranjith&style=for-the-badge&color=39FF88&labelColor=0d0d0d&label=PROFILE+VIEWS"/>&nbsp;
 <img src="https://img.shields.io/github/followers/Rks-ranjith?style=for-the-badge&logo=github&labelColor=0d0d0d&color=8B5CF6&label=FOLLOWERS"/>&nbsp;
 <img src="https://img.shields.io/github/stars/Rks-ranjith/AWAP-AI?style=for-the-badge&logo=github&labelColor=0d0d0d&color=A78BFA&label=STARS"/>
+
+<sub>badges not loading? that's GitHub's image cache (Camo), not the README — hard refresh fixes it in a few seconds</sub>
 
 </div>
 
